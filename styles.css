@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: url('imagenes/huellas.png') repeat;
+    background-size: contain;
+}
+
+header {
+    background-color: #f9a825;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+    background-color: #fff;
+    opacity: 0.9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-size: 2em;
+    color: #f57f17;
+    margin-bottom: 0.5em;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 0.75em;
+    background-color: #f57f17;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #e65100;
+}
+
+footer {
+    background-color: #f9a825;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+}

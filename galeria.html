@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas Cumpleañeras - Galería</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Huellitas Cumpleañeras</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="packs.html">Packs</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="galeria">
+            <h2>Galería</h2>
+            <p>¡Mira algunas de nuestras fiestas anteriores!</p>
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <img src="imagenes/fiesta1.png" alt="Fiesta 1">
+                    <img src="imagenes/fiesta2.png" alt="Fiesta 2">
+                    <img src="imagenes/fiesta3.png" alt="Fiesta 3">
+                    <img src="imagenes/fiesta4.png" alt="Fiesta 4">
+                    <img src="imagenes/fiesta5.png" alt="Fiesta 5">
+                </div>
+                <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Huellitas Cumpleañeras. Todos los derechos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
